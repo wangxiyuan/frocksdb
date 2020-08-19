@@ -1,6 +1,9 @@
 sudo: false
 dist: trusty
 language: cpp
+arch:
+  - amd64
+  - arm64
 os:
   - linux
   - osx
